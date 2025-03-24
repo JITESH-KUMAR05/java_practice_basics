@@ -16,7 +16,7 @@ public class NestedClassExample {
         Outer outerObj = new Outer();
 
         // Creating an instance of Inner class using the Outer class instance
-        Outer.Inner innerObj = outerObj.new Inner();
+        Outer.Inner innerobj = Outer.new Outer.Inner()
 
         // Calling method of Inner class
         innerObj.display();
