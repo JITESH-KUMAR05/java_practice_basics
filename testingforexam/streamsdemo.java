@@ -6,8 +6,6 @@ public class streamsdemo {
         FileOutputStream fos = new FileOutputStream("test.txt");
         fos.write("Hello, World!".getBytes());
         fos.close();
-
-        // Reading from file
         FileInputStream fis = new FileInputStream("test.txt");
         int i;
         while ((i = fis.read()) != -1) {
